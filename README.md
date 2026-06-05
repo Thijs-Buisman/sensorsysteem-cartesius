@@ -43,17 +43,17 @@ sensorsysteem-cartesius/
 │   ├── PCB_sensor/              # KiCad 9.0 project – sensorprintplaat (ontvanger)
 │   └── PCB_laser/               # KiCad 9.0 project – laserprintplaat (zender)
 │
-├── 3d-print/                    # STL-bestanden van alle 7 behuizingsonderdelen
+├── 3d-ontwerp/                    # STL-bestanden en .itp autodesk inventor van alle 7 behuizingsonderdelen
 │
 ├── testdata/
-│   ├── 21052026_1445.CSV        # Ruwe sensordata van de veldtest
-│   └── validatie_excel.xlsx     # Vergelijking sensor vs. handmatige telling
+│   ├── 05201342.CSV        # Ruwe sensordata van de veldtest
+│   └── Sensor_validatie_test.xlsx     # Vergelijking sensor vs. handmatige telling
 │
 └── docs/
-    ├── Overdracht_Sensorsysteem_Cartesius.docx   # Overdrachts document (begin hier)
-    ├── Handleiding_Sensorprototype.docx
-    ├── Proof_of_Concept_Sensorsysteem.docx
-    └── PCB-ontwerp_sensor_V1_Thijs_Buisman.pdf
+    ├── Overdracht_Sensorsysteem_Cartesius.pdf   # Overdrachts document (begin hier)
+    ├── Handleiding_Sensorprototype.pdf
+    ├── Proof_of_Concept_Sensorsysteem.pdf
+    └── PCB-ontwerp_sensor_V1.pdf
 ```
 
 ---
@@ -79,6 +79,7 @@ sensorsysteem-cartesius/
 - [Arduino IDE](https://www.arduino.cc/en/software) – voor de sensorcode
 - [KiCad 9.0](https://www.kicad.org/) – voor de PCB-schema's en layouts
 - [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) of [Cura](https://ultimaker.com/software/ultimaker-cura/) – voor de 3D-print bestanden
+- [Autodesk Inventor](https://www.autodesk.com/nl/products/inventor/overview) - 3D-modelleringssoftware voor ontwerpers en ingenieurs
 
 ---
 
